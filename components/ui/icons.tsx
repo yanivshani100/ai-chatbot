@@ -88,7 +88,7 @@ function IconNextChat({
   )
 }
 
-function IconOpenAI({ className, ...props }: React.ComponentProps<'svg'>) {
+function IconAgent({ className, ...props }: React.ComponentProps<'svg'>) {
   return (
     <svg
       fill="currentColor"
@@ -479,7 +479,7 @@ function IconChevronUpDown({
 export {
   IconEdit,
   IconNextChat,
-  IconOpenAI,
+  IconAgent,
   IconVercel,
   IconGitHub,
   IconSeparator,
